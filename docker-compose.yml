@@ -2,7 +2,7 @@ version: "3"
 
 services:
   nginx-proxy:
-    image: jwilder/nginx-proxy
+    image: pjanczyk/nginx-proxy
     restart: unless-stopped
     ports:
       - 80:80
